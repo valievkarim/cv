@@ -29,7 +29,7 @@
 
 **Founder & Developer, Attack Surface Management Tool** *(2022–now)*
 
-- Built full-stack attack-surface scanner: Python scheduler + custom & OSS modules, mapping 100k+ hosts in real time
+- Designed and developed full-stack attack-surface scanner: Python scheduler + custom & OSS modules, mapping 100k+ hosts in real time. Entire system built myself, except React dashboard.
 - Tuned pipeline to sustain 99% CPU / 90% RAM under load, with congestion and packet-loss controls; results indexed in MySQL and Elasticsearch
 - One-click deploy (Ansible, Docker, GitHub Actions) on cloud + bare-metal; React dashboard and Telegram alerts; full test/profiling suite
 
