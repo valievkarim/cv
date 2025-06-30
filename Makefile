@@ -1,6 +1,6 @@
 .PHONY: all html pdf clean open copy pdfv1 pdfv2 clean-all full release
 
-all: clean pdfv1 pdfv2 open
+all: pdfv2 open
 
 html: output/karim-valiev-cv.html
 
@@ -13,7 +13,7 @@ open: output/karim-valiev-cv-v2.pdf
 
 output/karim-valiev-cv.html: karim-valiev-cv.md
 	mkdir -p output
-	ln -s ../res output/res
+	ln -s -f ../res output/
 	pandoc --from=markdown-citations karim-valiev-cv.md -s -t html -o output/karim-valiev-cv.html --css res/my-gh-style.css -V "include-before=<article class='markdown-body'>" -V "include-after=</article>" -M "pagetitle=Karim Valiev" -M "lang=en"
 
 output/karim-valiev-cv-v1.pdf: output/karim-valiev-cv.html res/github-markdown-light.css res/my-gh-style.css res/NotoColorEmoji.ttf res/css-reset.css
