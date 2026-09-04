@@ -11,27 +11,37 @@
 
 ### Summary
 
-10+ years in cybersecurity / engineering. Deep hands-on with Python, Linux, networking and DBs. Built security tools and designed infrastructure at scale. Experienced in leading technical teams and mentoring engineers while staying deeply involved in the code.
+Cybersecurity leader and hands-on engineer with deep expertise in Python, Linux, networking, databases, and LLM agent systems. Built security teams and infrastructure at scale, as well as an autonomous AI pentesting platform. Experienced in hiring and mentoring engineers while staying deeply involved in architecture and code.
 
 ---
 
 ### 🛠️ Core Skills
 
-- **Dev:** Python, Go, C/C++, Linux kernel & eBPF, Docker/K8s, KVM/QEMU, CI/CD (Ansible, GitHub Actions), MySQL, Elasticsearch, AWS & GCP
-- **Networking:** TCP/IP (L2–L4), Firewalls, datacenter & office networks, VLANs, scapy
-- **Security:** Pentesting & Bug Bounty, Incident Response / SOC, Vuln Mgmt & Code Audits, PKI & Cryptography
-- **Mobile / IoT:** Android internals (NDK, Magisk, Frida), ESP8266/ESP32, Bluetooth & Zigbee, Home Assistant & esphome
+- **Dev:** Python, Go, C/C++, LLM agent systems (LangGraph), Linux kernel & eBPF, Docker/K8s, KVM/QEMU, CI/CD (Ansible, GitHub Actions), MySQL, Elasticsearch, AWS & GCP
+- **Networking:** TCP/IP (L2–L4), Firewalls, datacenter & office networks, VLANs, Scapy
+- **Security:** Pentesting & Bug Bounty, Incident Response / SOC, Vulnerability Management & Code Audits, PKI & Cryptography
+- **Mobile / IoT:** Android internals (NDK, Magisk, Frida), OpenWrt porting (previously unsupported router), ESP8266/ESP32, Bluetooth & Zigbee, Home Assistant & ESPHome
+- **AI-augmented:** Binary reverse engineering, Linux kernel debugging, frontend development (React, TypeScript, JavaScript)
 - **Leadership:** 7 yrs tech management — hiring, mentoring, project & security program delivery
 
 ---
 
 ### 💼 Experience
 
-**Founder & Developer, Attack Surface Management Tool** *(2022–now)*
+**Co-founder & Developer, Autonomous AI Pentesting Platform** *(2025–present)*
+
+- Built an end-to-end platform turning company scope into verified, client-ready pentest reports
+- Combined deterministic scanning, parallel AI agents, evidence verification, and reporting; evaluated on XBOW, Vulhub, and custom benchmarks
+- Built an automated development pipeline: specs → Linear → Codex/Claude → tests → GitHub PRs
+- Delivered pilots that uncovered critical vulnerabilities and closed three client sales with my co-founder
+
+**Founder & Developer, Attack Surface Management Tool** *(2022–2025)*
 
 - Entire system built myself, except React dashboard: Python scheduler + custom & OSS modules, mapping 100k+ hosts in real time
 - Tuned scanning pipeline to sustain 99% CPU / 90% RAM under load, with congestion and packet-loss controls; results indexed in MySQL and Elasticsearch
 - One-click deploy (Ansible, Docker, GitHub Actions) on cloud + bare-metal; React dashboard and Telegram alerts; full test/profiling suite
+
+<div style="break-before: page;"></div>
 
 **CISO, VK / Mail.Ru** *(2017–2021)*
 
@@ -39,8 +49,8 @@
 - Hardened infrastructure: per-service firewalls, YubiKey-based SSH/VPN, certificate Wi-Fi, automated vuln scanning; built and ran a top-7 global HackerOne bug-bounty and recurring 3rd-party red-team exercises
 - Led incident response for major breaches, drove M&A security, and served as public security ambassador (conferences, crisis comms, CTF team)
 
-**Security Team Lead, Mail.Ru email and portal BU, VK** *(2014–2017)*  
-**Security Analyst, Mail.Ru email and portal BU, VK** *(2013–2014)*  
+**Security Team Lead, VK / Mail.Ru** *(2014–2017)*  
+**Security Analyst, VK / Mail.Ru** *(2013–2014)*  
 **Software Developer, Stream.Ru** *(2012–2013)*  
 
 ---
