@@ -70,7 +70,7 @@ Cybersecurity leader and software engineer building AI-agent products. Deep expe
 
 - **Public speaking:**  
   - *Launch is Tomorrow* podcast – [modern auth](https://www.youtube.com/watch?v=qWK4ybUfew8) (2024), [security at scale](https://open.spotify.com/episode/32gEhH1lJWZAlA4GSdBw9a) (2019)
-  - Conference talks and panels on [applied cryptography](https://www.dropbox.com/s/3a8elbjb6adzr33/%5BDefensive%20Track%5D%20Karim%20Valiev%20-%20How%20to%20Stop%20Using%20Cryptography%20and%20Start%20Living-mKSQ6DjBz3w.mp4?dl=0), [scanner benchmarking](https://confidence-conference.org/archiwum/confidence_10.html) and [cybersecurity careers](https://broadcast.comdi.com/watch/ri9h10rj) (2012–2021)
+  - Conference talks and panels on [applied cryptography](https://www.youtube.com/watch?v=mKSQ6DjBz3w), [scanner benchmarking](https://confidence-conference.org/archiwum/confidence_10.html) and [cybersecurity careers](https://broadcast.comdi.com/watch/ri9h10rj) (2012–2021)
 
 ---
 

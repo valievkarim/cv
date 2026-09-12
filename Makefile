@@ -43,4 +43,11 @@ release: copy
 	git -C ../my-cv-public add -u .
 	git -C ../my-cv-public diff --cached --stat --color
 
+update: copy
+	rsync -avz karim-valiev-cv.md karim-valiev-cv.pdf Makefile ../my-cv-public/
+	echo "Checking for untracked/deleted files in ../my-cv-public/"
+	if git -C ../my-cv-public ls-files --others --exclude-standard --deleted | grep --color=always '.*'; then echo "ERROR: There are untracked or deleted files in ../my-cv-public/"; exit 1; fi
+	git -C ../my-cv-public add -u .
+	git -C ../my-cv-public diff --cached --stat --color
+
 
